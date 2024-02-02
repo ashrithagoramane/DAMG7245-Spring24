@@ -1,0 +1,5 @@
+sqlalchemy
+pymysql
+bcrypt
+python-dotenv
+snowflake-sqlalchemy
