@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A movement ecology paradigm for unifying organismal movement research</title>
+				<funder ref="#_wsmvkRZ">
+					<orgName type="full">James S. Mc-Donnell Foundation</orgName>
+				</funder>
+				<funder ref="#_dSAQHfU">
+					<orgName type="full">Israel Science Foundation</orgName>
+				</funder>
+				<funder ref="#_xkmWtqh">
+					<orgName type="full">US-Israel Binational Science Foundation</orgName>
+				</funder>
+				<funder ref="#_CWURHFV #_TXrUfJN #_8mwHc3H #_v925UqG">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Humboldt Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Friedrich Wilhelm Bessel Award</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Proceedings of the National Academy of Sciences</publisher>
+				<availability status="unknown"><p>Copyright Proceedings of the National Academy of Sciences</p>
+				</availability>
+				<date type="published" when="2008-12-09">2008-12-09</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+							<email>rnathan@cc.huji.ac.il.</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Movement Ecology Laboratory, Department of Evolution, Systematics and Ecology, Alexander Silberman Institute of Life Sciences, The Hebrew University of Jerusalem, Jerusalem 91904, Israel;</note>
+								<orgName type="department">Department of Evolution, Systematics and Ecology</orgName>
+								<orgName type="laboratory">Movement Ecology Laboratory</orgName>
+								<orgName type="institution" key="instit1">Alexander Silberman Institute of Life Sciences</orgName>
+								<orgName type="institution" key="instit2">The Hebrew University of Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wayne</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Department of Environmental Science, Policy and Management, University of California, Berkeley, CA 94720;</note>
+								<orgName type="department">Department of Environmental Science, Policy and Management</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eloy</forename><surname>Revilla</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Department of Conservation Biology, Estacio ´n Biolo ´gica de Don ˜ana, Spanish Council for Scientific Research CSIC, E-41013 Seville, Spain;</note>
+								<orgName type="department" key="dep1">Department of Conservation Biology</orgName>
+								<orgName type="department" key="dep2">Estacio ´n Biolo ´gica de Don ˜ana</orgName>
+								<orgName type="institution">Spanish Council for Scientific Research CSIC</orgName>
+								<address>
+									<postCode>E-41013</postCode>
+									<settlement>Seville</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marcel</forename><surname>Holyoak</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Department of Environmental Science and Policy, University of California, Davis, CA 95616;</note>
+								<orgName type="department">Department of Environmental Science and Policy</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>95616</postCode>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ronen</forename><surname>Kadmon</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Movement Ecology Laboratory, Department of Evolution, Systematics and Ecology, Alexander Silberman Institute of Life Sciences, The Hebrew University of Jerusalem, Jerusalem 91904, Israel;</note>
+								<orgName type="department">Department of Evolution, Systematics and Ecology</orgName>
+								<orgName type="laboratory">Movement Ecology Laboratory</orgName>
+								<orgName type="institution" key="instit1">Alexander Silberman Institute of Life Sciences</orgName>
+								<orgName type="institution" key="instit2">The Hebrew University of Jerusalem</orgName>
+								<address>
+									<postCode>91904</postCode>
+									<settlement>Jerusalem</settlement>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Saltz</surname></persName>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> Mitrani Department of Desert Ecology, Jacob Blaustein Institutes for Desert Research, Ben Gurion University of the Negev, Sede Boqer Campus, 84990 Israel;</note>
+								<orgName type="department" key="dep1">Mitrani Department of Desert Ecology</orgName>
+								<orgName type="department" key="dep2">Jacob Blaustein Institutes for Desert Research</orgName>
+								<orgName type="institution">Ben Gurion University of the Negev</orgName>
+								<address>
+									<addrLine>Sede Boqer Campus</addrLine>
+									<postCode>84990</postCode>
+									<country key="IL">Israel</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">E</forename><surname>Smouse</surname></persName>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>f</label> Department of Ecology, Evolution and Natural Resources, Rutgers University, New Brunswick, NJ 08901</note>
+								<orgName type="department">Department of Ecology, Evolution and Natural Resources</orgName>
+								<orgName type="institution">Rutgers University</orgName>
+								<address>
+									<postCode>08901</postCode>
+									<settlement>New Brunswick</settlement>
+									<region>NJ</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">University of New Mexico, Albequerque, NM</note>
+								<orgName type="institution">University of New Mexico</orgName>
+								<address>
+									<settlement>Albequerque</settlement>
+									<region>NM</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A movement ecology paradigm for unifying organismal movement research</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Proceedings of the National Academy of Sciences</title>
+						<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+						<idno type="ISSN">0027-8424</idno>
+						<idno type="eISSN">1091-6490</idno>
+						<imprint>
+							<publisher>Proceedings of the National Academy of Sciences</publisher>
+							<biblScope unit="volume">105</biblScope>
+							<biblScope unit="issue">49</biblScope>
+							<biblScope unit="page" from="19052" to="19059"/>
+							<date type="published" when="2008-12-09"/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8DD19AC59140FE5A0B74E19697E4133F</idno>
+					<idno type="DOI">10.1073/pnas.0800375105</idno>
+					<idno type="PMID">19060196</idno>
+					<idno type="PMCID">PMC2614714</idno>
+					<ptr type="open-access" target="http://www.pnas.org/content/105/49/19052.full.pdf"/>
+					<note type="submission">Edited by , and approved June 25, 2008 (received for review March 13, 2008</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-02-17T18:55+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>which quantifies population redistribution (7), to the Lagrangian ap-</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Movement of individual organisms is fundamental to life, quilting our planet in a rich tapestry of phenomena with diverse implications for ecosystems and humans. Movement research is both plentiful and insightful, and recent methodological advances facilitate obtaining a detailed view of individual movement. Yet, we lack a general unifying paradigm, derived from first principles, which can place movement studies within a common context and advance the development of a mature scientific discipline. This introductory article to the Movement Ecology Special Feature proposes a paradigm that integrates conceptual, theoretical, methodological, and empirical frameworks for studying movement of all organisms, from microbes to trees to elephants. We introduce a conceptual framework depicting the interplay among four basic mechanistic components of organismal movement: the internal state (why move?), motion (how to move?), and navigation (when and where to move?) capacities of the individual and the external factors affecting movement. We demonstrate how the proposed framework aids the study of various taxa and movement types; promotes the formulation of hypotheses about movement; and complements existing biomechanical, cognitive, random, and optimality paradigms of movement. The proposed framework integrates eclectic research on movement into a structured paradigm and aims at providing a basis for hypothesis generation and a vehicle facilitating the understanding of the causes, mechanisms, and spatiotemporal patterns of movement and their role in various ecological and evolutionary processes.</p><p>''Now we must consider in general the common reason for moving with any movement whatever.'' (Aristotle, De Motu Animalium, 4th century B.C.) motion capacity ͉ navigation capacity ͉ migration ͉ dispersal ͉ foraging M ovement of an organism, defined as a change in the spatial location of the whole individual in time, is a fundamental characteristic of life, driven by processes that act across multiple spatial and temporal scales. It plays a major role in determining the fate of individuals; the structure and dynamics of populations, communities, and ecosystems; and the evolution and diversity of life <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>. Anthropogenic habitat fragmentation, changes in land-use pattern and climate, and introduction of exotic species further highlight causal links in both directions between organismal movement and environmental change. A more cohesive understanding of the causes, patterns, mechanisms, and consequences of organismal movement is central to managing and restoring degraded landscapes and to controlling the spread of pests, invasive alien species, allergens, toxins, and infectious diseases.</p><p>Movement mechanisms are diverse among life forms: microorganisms, plants, and animals move in a variety of ways, either actively or passively, locally or in transit to new areas. Movement research is extensive <ref type="bibr" target="#b14">(15)</ref> but adheres to an idiosyncratic classification of different modes that conflate pattern and process and cause and effect. The same movement may be classified as foraging, within-patch movement, or station-keeping, depending on whether it is defined in terms of a goal, the landscape, or temporal dynamics. ''Migration'' has been applied to nearly all possible movement types, including the spread of plants, vertical movement of zooplankton, and seasonal excursions of birds and butterflies. Terms such as dispersal, wandering, ranging, and nomadism have been used to describe apparently distinct movement modes <ref type="bibr" target="#b4">(5)</ref>. This idiosyncratic classification is exacerbated by separation of movement studies for different taxonomic groups, geographical regions, and research approaches into nonoverlapping literatures. More worrisome is that we still lack a general framework for studying why, how, where, and when organisms move.</p><p>This Special Feature proposes a unifying paradigm termed movement ecology for studying movements of organisms of all kinds. We introduce a conceptual framework of organismal movement derived from first principles, which links theoretical and empirical movement studies. By virtue of its general mechanistic basis and focus on movement itself, the proposed paradigm is intended to stimulate the development of new methods and to pro-mote understanding of the causes, consequences, underlying mechanisms, and emergent spatiotemporal patterns of all movement phenomena.</p><p>Here, we first highlight recent quantitative and analytical advances and identify key challenges for movement research. We then present our framework and illustrate how it can be used to formulate hypotheses about movement. We also contrast the proposed scheme with earlier efforts to unify organismal movements and with existing research paradigms in related scientific disciplines. proach, which quantifies movement of individuals <ref type="bibr" target="#b6">(7)</ref> and has long been applied to study the movement of self-propelled microorganisms <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b15">16)</ref>. The Eulerian approach, however, remains the major and often the only practical way to study the externally vectored transport of microorganisms, airborne insects, and seeds. Progress in applying the Lagrangian approach to larger organisms relies on quantifying movement paths with sufficiently high spatiotemporal resolution and over sufficiently large spatiotemporal scales. Inherent tradeoffs between size and performance (spatial accuracy, temporal recording frequency, and battery life) of telemetry tags impose limits on the body size of wildranging organisms that can be tracked for extensive time periods. Recent technological advances encompassing numerous techniques, such miniaturized radio transmitters, global positioning systems, cellular and satellite networks, acoustic transmitters, and light-level geolocators are reducing these limits <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref>. This growing capacity to collect high-resolution spatiotemporal movement data requires revolutionary improvements in data management, processing, and analytical techniques, at least as challenging as the bioinformatics revolution of genomics and proteomics <ref type="bibr" target="#b19">(20)</ref>. Rapidly increasing computational power is driving a parallel ecoinformatics revolution to the point where computations not possible a decade ago can now be undertaken on networked desktop computers. Internet networking allows easy access to large ecological and geographic databases, including movement databases (e.g., www.movebank.org). The enhanced computational capacity has also fueled the development of new analytical tools, including Lagrangian simulations of wind-dispersed seeds <ref type="bibr" target="#b20">(21)</ref>, and statespace models of individual animal movement <ref type="bibr" target="#b21">(22)</ref> that represent a quantum leap beyond those used a decade ago <ref type="bibr" target="#b6">(7)</ref>.</p><p>These technological advances improve our ability to address four fundamental questions about organismal movement: (i) why move? (ii) how to move? (iii) when and where to move? and (iv) what are the ecological and evolutionary consequences of movement? A central challenge in addressing these questions is to elucidate the proximate and ultimate (evolutionary) causes responsible for the observed movement paths. Before introducing a conceptual framework constructed to address these questions, we highlight four major data analysis challenges.</p><p>First, because of its inherent dependency on the sampling protocol and frequency, parsing the movement path into a string of elemental units is a major challenge. Fortunately, improved tracking technology promises to do for movement ecology what genetic sequencing did for molecular genetics: to provide an elemental view of a movement track, in the same way that a nucleotide sequence provides an elemental view of a DNA string. The scientific revolution potentiated by genome sequencing can be compared with insights about movement drawn from mapping every step and stop of an individual during its lifetime track from birth to death (Fig. <ref type="figure">1</ref>). Practically and typically, movement data describe movement paths, each composed of a temporal sequence of recorded locations for an individual (Fig. <ref type="figure">1</ref>). In the same way that the 3D structure of DNA strings is central to the function of a DNA segment, the structure of a movement path is a reflection of the basic processes that produced it.</p><p>Second, path segments need to be classified in terms of the basic functional units of the lifetime track. Paraphrasing our DNA metaphor, identifying a nucleotide sequence that constitutes a functionally relevant DNA segment is analogous to identifying a movement phase during which a particular set of goals is fulfilled (Fig. <ref type="figure">1</ref>). Attempts to understand movement without being able to identify movement phases within observed movement paths are analogous to attempts to understand the meaning of the DNA sequence without being able to detect genes. The move-ment phase is thus a central concept in our proposed movement ecology paradigm (Fig. <ref type="figure">1</ref>), linking the traditional phenomenological emphasis on movement path analysis <ref type="bibr" target="#b14">(15)</ref> to the proposed mechanistic, process-based, movement ecology approach. The deconstruction of a movement path into a sequence of movement phases depends on the temporal resolution of the data. Because phases with duration shorter than the inverse of the sampling frequency are obscured, the set of movement phases used to parse the structure of a particular path must be compatible with the sampling frequency used to generate that path <ref type="bibr" target="#b22">(23)</ref>. Given movement data sampled with a sufficient resolution, the greatest challenge is to identify the proximate and ultimate drivers that break up the path into different movement phases. Potential solutions for this challenge used by Special Feature contributions are highlighted below (see Applying the Movement Ecology Approach).</p><p>Third, a major challenge is to assess how processes operating at multiple spatiotemporal scales determine the composition of movement phases and their frequency in an individual's lifetime track. Movement phases are made up of smaller units that we call canonical activity modes <ref type="bibr" target="#b22">(23)</ref>, such as runs and tumbles in bacteria <ref type="bibr" target="#b15">(16)</ref>  of trinucleotide codons. Lifetime tracks may consist of movement phases of different frequencies, which might form higher-level cassettes that can be identified as movement phenomena, which are perhaps analogous to supergenes or even entire chromosomes. For example, a newly hatched Danish bird initially pursues food (foraging) and experience (learning excursions) within its natal habitat, departs to wintering grounds in Ghana (seasonal migration), pursues food (foraging) and further experience (learning excursions), and later returns (seasonal migration) to establish a breeding territory in Sweden (dispersal).</p><p>Comprehending the functional hierarchy underlying a lifetime track necessitates investigation of movement mechanisms and patterns across multiple spatiotemporal scales <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b24">25)</ref>. Fourth, movement data must be placed into its proper environmental context. The spatiotemporal distribution of environmental signals (e.g., odor) affecting moving individuals can be quantified in fine detail across the lifetime activity zone of microorganisms <ref type="bibr" target="#b25">(26)</ref>. Yet, it is rarely possible to map the environmental features of an equivalently sized activity zone for larger freeranging organisms. This challenge can be addressed under special circumstances, for instance by recording abundance of trees and browsing marks along elk footprints in snow <ref type="bibr" target="#b23">(24)</ref>. At larger spatial scales, GIS can create ecologically and environmentally detailed landscape representations from remotely sensed data and merge these with data collected by other means at scales ranging from meters to hundreds of kilometers (e.g., ref. <ref type="bibr" target="#b26">27)</ref> to the whole globe. Models of oceanic or atmospheric dynamics can be used to relate, for example, flight trajectories of seeds <ref type="bibr" target="#b20">(21)</ref> and vultures <ref type="bibr" target="#b27">(28)</ref> to atmospheric conditions, although efforts are still needed to match the spatial and temporal scales by which flying organisms sense, and respond to, the environmental conditions they encounter en route <ref type="bibr" target="#b28">(29)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conceptual Framework for Movement Ecology</head><p>A coherent framework for movement ecology should be conceptualized from the standpoint of movement itself. It should allow us to explore the causes, mechanisms, and patterns of movement, and should facilitate the understanding of the consequences of movement for the ecology and evolution of individuals, populations, and communities. Given data of sufficient spatiotemporal resolution, the framework should facilitate identifying the fundamental mechanisms producing the movement path, encom-passing the entire range of scales from a single step and stop through movement phases to the lifetime track (Fig. <ref type="figure">1</ref>). We thus characterize a focal individual using three components: an internal state, a motion capacity, and a navigation capacity. A fourth component, external factors, represents all aspects of the abiotic and biotic environment influencing movement (Fig. <ref type="figure" target="#fig_0">2</ref>). Consequently, movement paths result from dynamic interplay of the four basic components, although, as illustrated below (this section), for particular movement types, not all are necessary.</p><p>The internal state accounts for the physiological and, where appropriate, the psychological state of the focal individual, driving the organism to fulfill one or more goals; hence, it addresses the question ''why move?'' It spans both proximate and ultimate evolutionary payoffs from moving, which might be difficult to tell apart. Yet, some specific activities like searching for food, escaping predation, following adults, or searching for a mate might indicate the proximate payoffs and, in turn, might suggest general (ultimate) goals of gaining energy, seeking safety, learning, and reproducing. The relative importance of different goals is expected to vary over an organism's lifetime and over much shorter periods, and an organism may pursue several goals simultaneously. Thus, the internal state consists of a multidimensional vector of many states.</p><p>An individual's motion capacity accounts for its ability to move in various ways or modes, reflecting its abilities to perform self-propelled (motile) locomotion or externally vectored transport. The motion capacity stems from biomechanical properties enabling birds to fly, gazelles to run, fish to swim, spiders to balloon, bacteria to glide over solid surfaces, maple samaras to ride on air eddies, and coconuts to float on ocean currents. The organism may employ several operational modes; for example, many birds fly, walk, and swim. In general, the set of motion machineries is fixed throughout the individual's movement path of plant seeds and other passively transported organisms but can vary in motile organisms. These changes ref lect both changes in an individual's internal state and/or the external factors.</p><p>Many organisms obtain, process, and use external information. The navigation capacity (''when and where to move?'') accounts for the ability to orient in space and/or time, selecting where (direction and position) and/or when (initiation and cessation) to move. Movement goals are often associated with targets, defined as where and when the individual can pursue its goal (e.g., the location of a given food item, safe haven, playground, or mate). The goal may be to move away from a threat, chemical repellants, or place of competition, rather than toward a specific attractant. Navigation in space and time requires an ability to sense and respond to information about the spatiotemporal structure and dynamics of the environment, often including other individuals. Information covers direct and indirect cues, memory of previous experiences, and even genetically coded ''memory.'' Juvenile bristlethighed curlews, for example, navigate a nonstop 4,000-km route from Alaska to the small island of Laysan in the Pacific with no prior experience or guidance by adults <ref type="bibr" target="#b29">(30)</ref>. Equivalently, the seed abscission traits of plants synchronize seed release with conditions favorable for long-distance dispersal <ref type="bibr" target="#b20">(21)</ref>. Navigational information can be goal-and/or sensory-system-specific. Flying swans, for example, use visual cues to detect a lake, kilometers away, but use tactile cues to detect tubers in the mud, millimeters away <ref type="bibr" target="#b30">(31)</ref>.</p><p>Our proposed conceptual framework (Fig. <ref type="figure" target="#fig_0">2</ref>) explicitly integrates the basic components and processes involved in the movement of individual organisms. Five basic questions illustrate its mechanistic approach to understanding movement. First, what motivates this movement; what are the internal goals? Second, how is this movement performed (motion capacity)? Third, when and toward what target is this movement performed (navigation capacity)? Fourth, which external factors affect this movement and how? Fifth, how do all four components interact to produce this movement? By answering these questions, we strive to identify the key life history traits, behaviors, and external factors determining movement, keeping in mind that some traits may be important for more than one function. It is also important to realize that both the ecological and evolutionary causes and consequences of movement contribute to the generation of movement paths. Thus, instead of focusing on the short-term response of the organism to its current internal state and the contemporary environment, one can extend the proposed framework to address questions on the causes and consequences of movement. Questions on the evolutionary history of movement can be addressed, for example, by characterizing the motion and navigation capacities expected to evolve under particular combinations of internal states and external forces. Questions on the fitness consequences of movement can be addressed by incorporating a response to anticipated changes in the internal state and/or the environment and by considering long-term payoffs of particular movements.</p><p>We can model the movement of an organism from its current location u t to a potentially new position u t ϩ 1 (measured one time unit later), as a function of its current location u t , internal state w t , motion capacity ⍀, navigation capacity ⌽, and their interactions with the current environmental factors r t . This implies a general relationship u tϩ1 ϭ F͑⍀,⌽,r t ,w t ,u t ͒.</p><p>[1]</p><p>Note this formulation permits both steps (u t ϩ 1 u t ) and stops (u t ϩ 1 ϭ u t ) (Fig. <ref type="figure">1</ref>). Insight, however, comes from being as specific as possible about the structure of F, without sacrificing framework generality. Using the notation f M , f N , and f U to represent actions of the motion, navigation, and movement progression processes, respectively, we posit two alternative structural representations, the motion-driven case</p><formula xml:id="formula_0">u tϩ1 ϭ f U ͑f M ͑⍀,f N ͑⌽,r t ,w t ,u t ͒,r t ,w t ,u t ͒͒,<label>[2]</label></formula><p>and the navigation-driven case</p><formula xml:id="formula_1">u tϩ1 ϭ f U ͑f N ͑⌽,f M ͑⍀,r t ,w t ,u t ͒,r t ,w t ,u t ͒͒.</formula><p>[3]</p><p>In the motion-driven case, the navigation process can be viewed as creating a map of probabilities for the locations to which the individual can potentially move at time t ϩ 1. The motion process weights these probabilities, thereby altering their relative values. Thus, the motion process depends on how the current position u t , internal state w t and environmental conditions r t interact with navigation options and motion capacity ⍀ to produce motion. The navigation options depend on how w t , r t (potentially different sets of factors than those affecting the motion process) and u t interact with the basic navigation capacity ⌽ to enable navigation. The motion-driven case differs from the naviga-tion-driven case in the sequence by which the probability map is generated and updated. In the navigation-driven case, the motion process depends on how w t , r t , and u t interact with ⍀ to produce motion, and the navigation process depends on how w t , r t , and u t interact with the motion process and ⌽ to enable navigation <ref type="bibr" target="#b22">(23)</ref>. Indeed, some organisms may alternate between the two types of movement; yet, in both cases, the movement progression process f U evaluates the weighted probabilities presented by the potential movement map, thereby determining the next location.</p><p>In the simplest case of movement generated without navigation, f N can be regarded as identity map represented by 1, and f U is simply a stochastic selection from the probability map generated by f M . Such cases may arise either when navigation capacity is lacking or when the individual has no information. We then see ''pure search,'' executed either by self-propelled motion (e.g., an animal searching for cryptic randomly distributed prey) or vector-mediated motion (e.g., passive transport of seeds by wind or water), which is affected only by the interplay between internal and external constraints on motion. In these cases, the movement equation reduces to</p><formula xml:id="formula_2">u tϩ1 ϭ f U ͑f M ͑⍀,r t ,w t ,u t ͒͒,<label>[4]</label></formula><p>Additionally, we need to account for the dynamics of the internal state (w) and all relevant external factors (r). Each constitutes a set of vectors forming a mutually interdependent dynamical system r tϩ1 ϭ f R ͑r t ,w t ,u t ͒ and</p><formula xml:id="formula_3">w tϩ1 ϭ f W ͑r t ,w t ,u t ͒,<label>[5]</label></formula><p>where f R is sufficiently flexible so that the external environment can have its own dynamics and can be affected by the focal individual (e.g., the escape path of a focal prey determines the path of a predator, an external factor). Similarly, f W allows the focal organism to have its own dynamics and to depend on the state of the environment (e.g., a focal individual's level of hunger depends on whether its movement path brings it to food resources).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Applying the Movement Ecology Approach</head><p>Although the movement ecology framework depicts the processes affecting movement of individuals in a simple way, it forces us to be comprehensive in our evaluation of movement and to place it in a broader context. That is, we need to augment the collection of se-quential positions with complementary data on the physiological (e.g., hormonal) and behavioral (e.g., feeding rates) state of the focal individual, and on potentially influential external factors (e.g., the proximity of other organisms or resources). In the absence of such information, we essentially attempt to predict the next location (u t ϩ 1 ) from the current location (u t ) alone. Mechanistic simulations demonstrate that environmental heterogeneity and dual goals are required to produce even relatively simple movement phenomena such as fission-fusion dynamics of social herbivores <ref type="bibr" target="#b22">(23)</ref>. The primary challenge in applying the movement ecology framework to a particular system is to identify the key external factors, internal states, and motion and navigation capacities influencing the movement of the organism(s) under study. Such identification could be straightforward for some traits or components but complicated for others. For example, the mass, surface area and aerodynamic structure of a Jacaranda seed determine its falling velocity in still air, thereby accounting for its motion capacity (i.e., the capacity to be transported by winds) <ref type="bibr" target="#b20">(21)</ref>. Yet other traits affecting seed transport by wind such as the seed release height may affect both the time a seed remains aloft and the timing of release hence both the motion and navigation capacities <ref type="bibr" target="#b20">(21)</ref>. Empirical manipulations of internal traits and environmental factors are probably the best way to elucidate the basic determinants of movement patterns and processes <ref type="bibr" target="#b31">(32)</ref>. For example, external factors can be controlled and the internal state and navigation and/or motion capacities can be assessed or manipulated in studies of motile microorganisms <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b32">33)</ref>. It is, however, a logistical challenge to identify the key external and internal factors influencing movement in larger free-ranging organisms. Studies in this Special Feature exemplify how these challenges can be addressed: by using heart-rate transmitters attached to migrating vultures to assess their internal state <ref type="bibr" target="#b27">(28)</ref>; by raising individual butterflies from different source populations in common garden conditions and comparing their movement paths <ref type="bibr" target="#b33">(34)</ref>; by using time-series analyses to compare movement paths of individual elephants of known social status in different seasons and environmental conditions <ref type="bibr" target="#b26">(27)</ref>; and by assigning a seed aerodynamic trait and using the timing of seed release as proxies for motion and navigation capacities, respectively, in a study of wind-dispersed tree seeds <ref type="bibr" target="#b20">(21)</ref>.</p><p>Coupling empirical studies with individual-based simulations can help evaluate how fine-scale data, obtained over short time periods, can be used to predict movement over larger temporal scales <ref type="bibr" target="#b34">(35)</ref>. Invoking a theoretical model forces us to make explicit the motion and navigation capacities and their interactions with the internal state and the environment, thus explicitly recognizing the constraints imposed by the movement process <ref type="bibr" target="#b35">(36)</ref>. It also forces us to make explicit our assumptions and to recognize their potential effects on any application to real data. If we assume, for example, that the displacement of individuals among sites always follows an exponentially decaying function of interpatch distance, we implicitly assume that the environmental factors affecting movement and the internal state of the individual are spatiotemporally constant. If we assume that individuals follow some form of random walk, we implicitly assume they do not use external information to navigate. Thus, the heuristic filter imposed by the movement ecology framework helps to identify the limitations of current theory, thus fostering improvement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characterization of Movement Phenomena in Light of the Conceptual Framework</head><p>The generality of the proposed movement ecology framework provides an increased capacity, compared with existing frameworks, to evaluate the relationships among different movement phenomena, based on explicit consideration of basic mechanisms and/or emergent patterns. We explored this issue by asking authors of this Special Feature to complete a questionnaire [see supporting information (SI) Text in SI Appendix] on their perception of the relationships between eight major movement phenomena, (i) a set of 23 attributes characterizing movement mechanisms, all related to four basic components of the framework; and (ii) 14 attributes characterizing movement patterns. The movement phenomena used were foraging, animal dispersal, plant dispersal, one-way migration, two-way migration, irruption, nomadism, and accidental displacements. Respondents ranked the relevance of each attribute to each movement phenomenon on a scale ranging from 0 (not relevant) to 4 (highly relevant). These scores were averaged across respondents, and the two matrices of mean scores were evaluated by using principal component analysis (PCA) to quantify the relationship among movement phenomena and between movement phenomena and the mechanistic or pattern attributes.</p><p>Despite considerable variation among respondents, PCA results indicated that movement can be characterized both mechanistically and phenomenologically (SI Appendix). Specifically, PCA results identified a number of clear relationships between movement phenomena and mechanistic or pattern attributes (see SI Appendix) and revealed key differences in how movement phenomena are perceived in terms of their mechanisms and patterns. For example, accidental displacement was perceived to resemble plant dispersal and one-way migration to resemble animal dispersal, based on both mechanisms and movement patterns. Yet, some movement phenomena appeared highly similar based on mechanisms but dissimilar based on patterns, or vice versa. For example, irruption was perceived to resemble nomadism mechanistically but to be much closer to dispersal of animals or plants phenomenologically (SI Appendix). Accidental displacement, foraging, and two-way migration were considered distinct phenomena, in terms of both underlying mechanisms and patterns, whereas plant dispersal was considered a distinct phenomenon mechanistically but not phenomenologically. Although these results are based on a preliminary analysis of responses of a small group of movement ecologists, the exercise can help formulate fundamental mechanistic hypotheses to test our perceptions of what might govern various types of movement (e.g., the mechanistic attributes with relatively high scores for each component in Table <ref type="table">S3</ref> in SI Appendix). Furthermore, they may help us predict how those mechanisms could lead to convergence or divergence of movement patterns. This survey also showed that, despite attempts to define movement terms precisely <ref type="bibr" target="#b4">(5)</ref>, their general usage by even a small group of movement ecologists is still quite variable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Links to the Earlier Work</head><p>Although it was posed Ͼ2,300 years ago, we have not yet fully met Aristotle's challenge in De Motu Animalium (On the Movement of Animals): ''The movement of animals that belong to each genus, and how these are differentiated, and what the reasons are for the accidental characteristics of each-all this we have considered elsewhere. But now we must consider in general the common reason for moving with any movement whatever (for some animals move by flying, some by swimming, some by stepping, some in other comparable ways)'' <ref type="bibr" target="#b36">(37)</ref>. His treatise begins with a discussion of motion machineries (here ⍀), arguing for the general mechanical principle that ''for if one of the parts move, there must be some part at rest.'' He then relates motion machineries to the external environment [here f M (⍀,r)], essentially proposing the existence of action-reaction forces, formalized two millennia later as Newton's third law. In the second half of this treatise, Aristotle focuses on the internal motivation to move (here w), asserting that ''all animals impart movement and are moved for the sake of something, so that this is the limit of their movement, the thing for-the-sake-of-which.'' He divides the many internal motivations to categories of desire (e.g., appetite) and cognition (e.g., imagination) and discusses the role of sense perception (here ⌽), and how it affects the animal's movement, and its desire. Although Aristotle's text is vague and abstract and includes many claims that are neither explained nor justified, and although it does not ultimately put everything together under a general model of movement, ''De Motu Animalium'' is remarkable in seeking general explanations of organismal movements. It also identifies many, if not all, of the basic components required to develop such generalizations.</p><p>The literature on the ecology and evolutionary biology of movement over the last decade has been extensive <ref type="bibr" target="#b14">(15)</ref>. Many books and edited volumes have focused on particular movements and taxa, such as bird migration <ref type="bibr" target="#b13">(14)</ref>, dispersal of plants <ref type="bibr" target="#b12">(13)</ref>, or small mammals <ref type="bibr" target="#b5">(6)</ref>. Others have been devoted to more general movement phenomena such as dispersal <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b11">12)</ref> and the flow of life in the atmosphere <ref type="bibr" target="#b9">(10)</ref>. Perhaps the most comprehensive essays about organismal movement to date are the monographs of Baker (1) and Dingle <ref type="bibr" target="#b4">(5)</ref>, in which each broadly interprets the term ''migration,'' although strongly focusing on animals. Baker's definition of migration as ''the act of moving from one spatial unit to another,'' however, is far too general in covering every possible type of movement if the definition of a ''spatial unit'' is not contained. Nevertheless, his 1,000page book amply exemplifies the movements of various animal taxa. Importantly, it highlights the need to consider lifetime tracks and their fundamental components, to separate accidental movements from other types of movement, and ''calculated'' (''to a specific destination'') from noncalculated movements. Dingle's use of migration is also broad, encompassing characteristics of the movement pattern (persistent and straightened-out) and the underlying behavior (temporary inhibition of station-keeping response). We share his view on the need to investigate the evolutionary and behavioral mechanisms underlying movements and not solely their ecological outcomes.</p><p>On the theoretical side, the related theories of random walk (2), diffusion <ref type="bibr" target="#b10">(11)</ref>, and anomalous diffusion <ref type="bibr" target="#b37">(38)</ref>, and optimality theories of foraging (4), dispersal <ref type="bibr" target="#b8">(9)</ref>, and migration <ref type="bibr" target="#b38">(39)</ref> have provided a template for investigating movement patterns and their potential causes and consequences. Turchin's book <ref type="bibr" target="#b6">(7)</ref> provides the most general compilation of theory and practical tools to analyze movement data of any kind, which are powerful in combination with a formal framework such as the one proposed here.</p><p>From our historical exposition, it is clear that our efforts to move movement ecology forward complement rather than supersede past efforts by providing a general framework for identifying underinvestigated components and for carryout comparative analyses across diverse taxa. We hope the proposed movement ecology approach will help to unify movement research beyond past considerations of animal migration <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b4">5)</ref>, by including other kinds of movements and encompassing all life forms, including microorganisms and plants. We also propose a framework for studying organism movements that combines the random and optimal perspectives and principles from biomechanics and cognitive sciences (see next section). Finally, we provide an impetus to further develop both general and specific tools for collecting and analyzing movement data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Links to Existing Movement Research Paradigms</head><p>Questions of organismal movement are central to various scientific disciplines <ref type="bibr" target="#b14">(15)</ref> that encompass alternative paradigms for studying movement. To foster integration, we outline the commonalities and differences between the proposed movement ecology approach and the standard research approaches prevailing in four major existing paradigms (Fig. <ref type="figure" target="#fig_1">3</ref>).</p><p>The biomechanical paradigm focuses on the physical machineries of motion for the individual, including their mechanics, energetics, and physiology <ref type="bibr" target="#b39">(40)</ref>. Studies springing from this paradigm often use controlled experiments in which the external conditions are changed, via walking belts or wind or water tunnels, while monitoring the individual's physiological state. This approach provides a good description of the motion capacity of individuals but ignores the questions of why, where, and when organisms move.</p><p>The cognitive paradigm focuses on navigation mechanisms to elucidate the rules by which individual motile organisms make movement-related decisions. The mechanistic investigation of movement in this paradigm goes to the level of specific cells in the animal brain that are associated with particular movement or navigation decisions <ref type="bibr" target="#b40">(41)</ref>. In general, the paradigm pays less attention to how individuals implement decisions (motion capacity) or to how the resulting move- ment feeds back to the internal motivation to move. The prevailing approach in the random paradigm is characterized by simple phenomenological descriptions of movement paths and by null models related to the theories of random walk (2), diffusion <ref type="bibr" target="#b10">(11)</ref>, and anomalous diffusion <ref type="bibr" target="#b37">(38)</ref>. The approach is often used to analyze large-scale movements in landscape ecology where individuals are assumed to search with no previous information. The optimality paradigm from behavioral and evolutionary ecology explores the relative efficacy of different strategies in optimizing some particular fitness currency (e.g., energy gain, survival, or reproduction) over ecological or evolutionary time scales. Although movement can strongly affect fitness, studies evaluating the fitness consequences of movement are still rather rare. Consequently, principal concepts in this paradigm, such as the ideal-free distribution <ref type="bibr" target="#b43">(44)</ref> and central-place foraging theory <ref type="bibr" target="#b44">(45)</ref>, do not explicitly deal with movement per se and tend to neglect the constraints imposed by the limited motion and navigation capacities of individuals and the partial information they have about their environments.</p><p>In summary, the biomechanical and cognitive paradigms do not usually consider movement patterns. They focus instead on the basic mechanisms underlying movements, specifically the motion and navigation capacities, respectively. The random and optimality paradigms tend to overlook the mechanisms; the former focuses mostly on the movement patterns, the latter on the interplay between the internal state and external factors. Recent studies have already started to bridge the gaps among these four paradigms <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b42">43)</ref>. An illustrative example is the extensive and evergrowing research on movement of prokaryotes <ref type="bibr" target="#b32">(33)</ref>, especially bacterial chemotaxis, the self-propelled motion in response to chemical attractants and repellents <ref type="bibr" target="#b15">(16)</ref>. Research on chemotaxis in the bacterium Escherichia coli <ref type="bibr" target="#b15">(16)</ref> has yielded the best-characterized molecular and neurobiological networks of signal detection and transduction (cognitive approach), motor operation (biomechanical approach), and thorough analyses of movement paths in isotropichomogenous medium (random approach) (2). Our proposed movement ecology framework can provide a theoretical scaffold to synergize research from these paradigms for bacteria and any other kind of organism. It may also motivate the development of new crossdisciplinary concepts and methodologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strengths, Limitations, and Future Directions</head><p>By integrating the major existing paradigms and opening a channel for research focusing on all aspects of movement itself, the proposed movement ecology paradigm sets the stage for the development of a unified theory of movement, for elucidating the causes and underlying mechanisms of movement patterns and their consequences for various ecological and evolutionary processes. Because the basic conceptual framework (Fig. <ref type="figure" target="#fig_0">2</ref>) encompasses all factors affecting the movement of an individual, it can consolidate diverse movement phenomena, link and thereby enrich specialized research fields, and identify gaps in research <ref type="bibr" target="#b14">(15)</ref>. The approach is also likely to help address applied questions, because movement of organisms is strongly relevant to most, if not all, current environmental concerns. For example, long-distance movements of various organisms <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b45">46)</ref> can greatly impact the spatial dynamics of local populations and communities, driving species' responses to fragmentation <ref type="bibr" target="#b46">(47)</ref>, playing a key role in species invasions, responses to climate change, and other global concerns <ref type="bibr" target="#b47">(48)</ref>.</p><p>An important limitation of the proposed approach is related to practical difficulties in quantifying the movement of individuals and especially in understanding the mechanisms underlying these movements. Addressing this limitation requires further technological and methodological advances (e.g., ref. <ref type="bibr" target="#b42">43)</ref>, to quantify not only movement paths but also the internal and external components involved. The focus on individuals complicates the study of processes at higher levels of organization and longer temporal scales. Our approach can be extended to analyze the contemporaneous movement trajectories of multiple, possibly interacting, conspecific individuals <ref type="bibr" target="#b48">(49,</ref><ref type="bibr" target="#b49">50)</ref>, and the movement patterns of individuals and their progeny over several generations. Applications to biological interactions such as bird-me-diated seed dispersal require investigation of the movement ecology of two (or more) interacting species <ref type="bibr" target="#b46">(47)</ref>.</p><p>Applications of the proposed framework to populations, communities, and ecosystems or to multigeneration or evolutionary processes are inherently more difficult but possible and potentially valuable. Indeed, processes other than movement (e.g., demography, species interactions) need to be invoked to explain the dynamics of populations and communities, as illustrated by Special Feature papers applying the movement ecology framework to study the dynamics of plant communities <ref type="bibr" target="#b46">(47)</ref> and lynx populations <ref type="bibr" target="#b50">(51)</ref> in spatially structured landscapes. Remarkably, though, both studies also showed that the dynamics of higher levels of organization were better explained when a more detailed mechanistic understanding of movement was available. For example, patterns of community dynamics were best explained for bird-dispersed plants, partially explained for wind-dispersed species, and largely unexplained for species classified as unassisted. The level of understanding of movement of these three types of vectors in this system followed exactly the same order: bird movement is well known, wind regimes are sparsely understood, and transport of ''unassisted'' seeds remains mysterious <ref type="bibr" target="#b46">(47)</ref>.</p><p>Applications to evolutionary questions about movement are promising, because identification of the major mechanisms underlying movement is a prerequisite to understand their evolution. Indeed, our framework is based on fundamental evolutionary principles, assuming that the internal motivation to move is explicable in terms of its (post hoc) fitness consequences (Fig. <ref type="figure" target="#fig_0">2</ref>). Still, extending this framework to study processes operating over evolutionary time scales would require substantial changes, allowing motion and navigation capacities and the properties of the major interactions among the four components to evolve.</p><p>At this stage of enquiry, we believe the proposed movement ecology framework not only provides an integrated approach to the acquisition of knowledge pertaining to the processes and mechanisms that determine movement pathways, and thereby movement patterns across landscapes, but also facilitates the interpretation of movement data in a more coherent way. Our framework thus makes it is possible to more tightly link analyses of movement paths and studies of movement mechanisms, thereby better elucidating the interplay between movement patterns and processes. We also hope our framework encourages future studies, where possible, to include all four mechanistic components and their interactions, thereby taking us to a deeper level in addressing more ambitious questions about the mechanisms underlying the diverse world of movement phenomena.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>RFig. 2 .</head><label>2</label><figDesc>Fig. 2. A general conceptual framework for movement ecology, composed of three basic components (yellow background) related to the focal individual (internal state, motion capacity, and navigation capacity) and a fourth basic component (turquoise background) referring to external factors affecting its movement. Relationships among components related to the processes by which they affect each other, with arrows indicating the direction of impact. The resulting movement path (defined in Fig. 1) feeds back to the internal and external components. Glossary: Internal state, the multidimensional state (e.g., physiological and neurological) of the focal individual that affects its motivation and readiness to move; Motion capacity, the set of traits (e.g., biomechanical or morphological machineries) that enables the focal individual to execute or facilitate movement; Navigation capacity, the set of traits (e.g., cognitive or sensory machineries to obtain and use information) that enables the focal individual to orient its movement in space and/or time; External factors, the set of biotic and abiotic environmental factors that affect the movement of the focal individual; Motion process, the realized motion capacity given the impact of the current location, internal state, and external factors on the fundamental motion capacity of the focal individual; Navigation process, the realized navigation capacity given the impact of the current location, internal state, and external factors on the fundamental navigation capacity of the focal individual; Movement propagation process, the realized movement produced by the motion process and (optionally affected by the navigation process).</figDesc><graphic coords="3,270.71,51.11,233.66,166.46" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. The relationships among the proposed movement ecology paradigm (Fig.2) and four existing paradigms representing different scientific disciplines in which the movement of organism is being studied. Elements in the gray background are components of the movement ecology framework.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>SPECIAL FEA TURE: PERSPECTIVE Downloaded from https://www.pnas.org by NORTHEASTERN UNIV LIB RESOURCE MANAGEMENT 260SL on February 17, 2024 from IP address 155.33.134.26.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19054" xml:id="foot_1"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0800375105 Nathan et al. Downloaded from https://www.pnas.org by NORTHEASTERN UNIV LIB RESOURCE MANAGEMENT 260SL on February 17, 2024 from IP address 155.33.134.26.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Downloaded from https://www.pnas.org by NORTHEASTERN UNIV LIB RESOURCE MANAGEMENT 260SL on February 17, 2024 from IP address 155.33.134.26.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19056" xml:id="foot_3"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0800375105 Nathan et al. Downloaded from https://www.pnas.org by NORTHEASTERN UNIV LIB RESOURCE MANAGEMENT 260SL on February 17, 2024 from IP address 155.33.134.26.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19058" xml:id="foot_4"><p>͉ www.pnas.org͞cgi͞doi͞10.1073͞pnas.0800375105 Nathan et al. Downloaded from https://www.pnas.org by NORTHEASTERN UNIV LIB RESOURCE MANAGEMENT 260SL on February 17, 2024 from IP address 155.33.134.26.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS.</head><p>We thank <rs type="person">E. Rabinovici</rs>, <rs type="person">P. Feldman</rs>, and all staff of the <rs type="institution">Institute for Advanced Studies in Jerusalem</rs> for hosting and sponsoring our group from September 2006 to August 2007. We thank all visitors, students, and short-term members of this group, and especially <rs type="person">R. Powell</rs> and <rs type="person">R. Casagrandi</rs>, for insightful discussions. We also thank <rs type="person">F. Bartumeus</rs>, <rs type="person">PNAS</rs> editor <rs type="person">J. H. Brown</rs>, and an anonymous reviewer for important feedback. Finally, we thank the Special Feature authors and members of R.<rs type="institution">N.'s laboratory</rs> for answering the questionnaire. R.N. was supported by <rs type="funder">National Science Foundation</rs> Grants <rs type="grantNumber">NSF-DEB-0453665</rs>, <rs type="funder">Israel Science Foundation</rs> <rs type="grantNumber">ISF-FIRST 1316/05</rs>, and <rs type="funder">US-Israel Binational Science Foundation</rs> <rs type="grantNumber">BSF 124/2004</rs>, and by the <rs type="funder">Friedrich Wilhelm Bessel Award</rs> from the <rs type="funder">Humboldt Foundation</rs>. W.M.G. was supported by a <rs type="funder">James S. Mc-Donnell Foundation</rs> <rs type="grantName">21st Century Science Initiative Award</rs>. M.H. was supported by <rs type="funder">National Science Foundation</rs> Grant <rs type="grantNumber">NSF-DEB 0414465</rs>. P.E.S. was supported by <rs type="funder">National Science Foundation</rs> Grants <rs type="grantNumber">NSF-DEB-0211430</rs> and <rs type="funder">NSF</rs><rs type="grantNumber">-DEB-0514956</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_CWURHFV">
+					<idno type="grant-number">NSF-DEB-0453665</idno>
+				</org>
+				<org type="funding" xml:id="_dSAQHfU">
+					<idno type="grant-number">ISF-FIRST 1316/05</idno>
+				</org>
+				<org type="funding" xml:id="_xkmWtqh">
+					<idno type="grant-number">BSF 124/2004</idno>
+				</org>
+				<org type="funding" xml:id="_wsmvkRZ">
+					<orgName type="grant-name">21st Century Science Initiative Award</orgName>
+				</org>
+				<org type="funding" xml:id="_TXrUfJN">
+					<idno type="grant-number">NSF-DEB 0414465</idno>
+				</org>
+				<org type="funding" xml:id="_8mwHc3H">
+					<idno type="grant-number">NSF-DEB-0211430</idno>
+				</org>
+				<org type="funding" xml:id="_v925UqG">
+					<idno type="grant-number">-DEB-0514956</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<title level="m">The Evolutionary Ecology of Animal Migration</title>
+		<meeting><address><addrLine>London)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Hodder and Stoughton</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker RR (1978) The Evolutionary Ecology of Animal Migration (Hodder and Stoughton, London).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">George M. Logan. The Meaning of More's “Utopia”. Princeton, NJ: Princeton University Press. 1983. $27.50.</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/4049076</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Albion</title>
+		<title level="j" type="abbrev">Albion</title>
+		<idno type="ISSN">0095-1390</idno>
+		<idno type="ISSNe">2326-1242</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="236" to="237"/>
+			<date type="published" when="1983">1983</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+			<pubPlace>Princeton, NJ)</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berg HC (1983) Random Walks in Biology (Princeton Univ Press, Princeton, NJ).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Swingland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Greenwood</surname></persName>
+		</author>
+		<title level="m">The Ecology of Animal Movement</title>
+		<meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swingland IR, Greenwood PJ (1983) The Ecology of Animal Movement (Clarendon, Oxford).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Krebs</surname></persName>
+		</author>
+		<title level="m">Foraging Theory</title>
+		<meeting><address><addrLine>Princeton, NJ)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ Press</publisher>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stephens DW, Krebs JR (1986) Foraging Theory (Prince- ton Univ Press, Princeton, NJ).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dingle</surname></persName>
+		</author>
+		<title level="m">Migration: The Biology of Life on the Move</title>
+		<meeting><address><addrLine>Oxford)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford Univ Press</publisher>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dingle H (1996) Migration: The Biology of Life on the Move (Oxford Univ Press, Oxford).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The study of dispersal: a conceptual guide</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Stenseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Z</forename><surname>Lidicker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-011-2338-9_1</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Animal Dispersal</title>
+		<imprint>
+			<publisher>Springer Netherlands</publisher>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="page" from="5" to="20"/>
+		</imprint>
+	</monogr>
+	<note>London)</note>
+	<note type="raw_reference">Stenseth NC, Lidicker WZ (1992) Animal Dispersal: Small Mammals as a Model (Chapman and Hall, Lon- don).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Turchin</surname></persName>
+		</author>
+		<title level="m">Quantitative Analysis of Movement</title>
+		<meeting><address><addrLine>Sunderland, MA)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sinauer</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Turchin P (1998) Quantitative Analysis of Movement (Sinauer, Sunderland, MA).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hanski</surname></persName>
+		</author>
+		<title level="m">Metapopulation Ecology</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford Univ Press</publisher>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanski I (1999) Metapopulation Ecology (Oxford Univ Press, Oxford).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Danchin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Dhondt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nichols</surname></persName>
+		</author>
+		<title level="m">Dispersal</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford Univ Press</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clobert J, Danchin E, Dhondt AA, Nichols JD (2001) Dispersal (Oxford Univ Press, Oxford).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Isard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Gage</surname></persName>
+		</author>
+		<title level="m">Flow of Life in the Atmosphere</title>
+		<meeting><address><addrLine>East Lansing, MI)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Michigan State Univ Press</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Isard SA, Gage SH (2001) Flow of Life in the Atmo- sphere (Michigan State Univ Press, East Lansing, MI).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Diffusion and Ecological Problems: Modern Perspectives</title>
+		<author>
+			<persName><forename type="first">Akira</forename><surname>Okubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4757-4978-6</idno>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>Springer New York</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okubo A, Levin SA (2001) Diffusion and Ecological Problems: Modern Perspectives (Springer, New York).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bullock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Kenward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hails</surname></persName>
+		</author>
+		<title level="m">Dispersal Ecology</title>
+		<meeting><address><addrLine>Malden, MA)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Blackwell</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bullock JM, Kenward RE, Hails R (2002) Dispersal Ecol- ogy (Blackwell, Malden, MA).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Levey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Galetti</surname></persName>
+		</author>
+		<title level="m">Seed Dispersal and Frugivory: Ecology, Evolution and Conservation</title>
+		<meeting><address><addrLine>Wallingford, UK)</addrLine></address></meeting>
+		<imprint>
+			<publisher>CAB International</publisher>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Levey DJ, Silva WR, Galetti M (2002) Seed Dispersal and Frugivory: Ecology, Evolution and Conservation (CAB International, Wallingford, UK).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Marra</surname></persName>
+		</author>
+		<title level="m">Birds of Two Worlds: The Ecology and Evolution of Migration</title>
+		<meeting><address><addrLine>Baltimore)</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Hopkins Univ Press</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenberg RS, Marra PP (2005) Birds of Two Worlds: The Ecology and Evolution of Migration (John Hopkins Univ Press, Baltimore).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Trends and missing parts in the study of movement ecology</title>
+		<author>
+			<persName><forename type="first">Marcel</forename><surname>Holyoak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Renato</forename><surname>Casagrandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eloy</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Orr</forename><surname>Spiegel</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0800483105</idno>
+		<idno type="PMID">19060194</idno>
+		<idno type="PMCID">PMC2614715</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19060.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19060" to="19065"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holyoak M, Casagrandi R, Nathan R, Revilla E, Spiegel O (2008) Trends and missing parts in the study of move- ment ecology. Proc Natl Acad Sci USA 105:19060 - 19065.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Motile Behavior of Bacteria</title>
+		<author>
+			<persName><forename type="first">Howard</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.882934</idno>
+		<ptr type="open-access" target="https://dash.harvard.edu/bitstream/1/3200610/2/Berg_MotileBehavvior.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Physics Today</title>
+		<title level="j" type="abbrev">Physics Today</title>
+		<idno type="ISSN">0031-9228</idno>
+		<idno type="ISSNe">1945-0699</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="29"/>
+			<date type="published" when="2000-01">2000</date>
+			<publisher>AIP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berg HC (2000) Motile behavior of bacteria. Phys Today 53:24 -29.</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Biotelemetry: a mechanistic approach to ecology</title>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><forename type="middle">G</forename><surname>Hinch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Wikelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Russel</forename><forename type="middle">D</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Louise</forename><forename type="middle">J</forename><surname>Kuchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><forename type="middle">G</forename><surname>Wolcott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><forename type="middle">J</forename><surname>Butler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2004.04.003</idno>
+		<idno type="PMID">16701280</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<title level="j" type="abbrev">Trends in Ecology &amp; Evolution</title>
+		<idno type="ISSN">0169-5347</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="334" to="343"/>
+			<date type="published" when="2004-06">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooke SJ, et al. (2004) Biotelemetry: A mechanistic approach to ecology. Trends Ecol Evol 19:334 -343.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Review of the NSF-Sponsored Animal Tracking and Physiological Monitoring Workshop</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wikelski</surname></persName>
+		</author>
+		<ptr target="www.movebank.org"/>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kays RW, Wikelski M (2007) Review of the NSF- Sponsored Animal Tracking and Physiological Moni- toring Workshop. Available at: www.movebank.org.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Going wild: what a global small-animal tracking system could do for experimental biologists</title>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Wikelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><forename type="middle">W</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Jeremy</forename><surname>Kasdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kasper</forename><surname>Thorup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">W</forename><surname>Swenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.02629</idno>
+		<idno type="PMID">17210955</idno>
+		<ptr type="open-access" target="http://jeb.biologists.org/content/210/2/181.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Biology</title>
+		<idno type="ISSN">0022-0949</idno>
+		<idno type="ISSNe">1477-9145</idno>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="186"/>
+			<date type="published" when="2007-01-15">2007</date>
+			<publisher>The Company of Biologists</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikelski M, et al. (2007) Going wild: What a global small-animal tracking system could do for experimen- tal biologists. J Exp Biol 210:181-186.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mount</surname></persName>
+		</author>
+		<title level="m">Bioinformatics: Sequence and Genome Analysis</title>
+		<meeting><address><addrLine>Cold Spring Harbor, NY)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cold Spring Harbor Lab Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mount DW (2004) Bioinformatics: Sequence and Ge- nome Analysis (Cold Spring Harbor Lab Press, Cold Spring Harbor, NY).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Understanding strategies for seed dispersal by wind under contrasting atmospheric conditions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Joseph</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Trakhtenbrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gil</forename><surname>Bohrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matteo</forename><surname>Detto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><forename type="middle">G</forename><surname>Katul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nir</forename><surname>Horvitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helene</forename><forename type="middle">C</forename><surname>Muller-Landau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0802697105</idno>
+		<idno type="PMID">19060189</idno>
+		<idno type="PMCID">PMC2614719</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19084.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19084" to="19089"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright SJ, et al. (2008) Understanding strategies for seed dispersal by wind under contrasting atmospheric conditions. Proc Natl Acad Sci USA 105:19084 -19089.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">State–space models of individual animal movement</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ovaskainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matthiopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tree.2007.10.009</idno>
+		<idno type="PMID">18191283</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Ecology &amp; Evolution</title>
+		<title level="j" type="abbrev">Trends in Ecology &amp; Evolution</title>
+		<idno type="ISSN">0169-5347</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="87" to="94"/>
+			<date type="published" when="2008-02">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Matthiopoulos J</note>
+	<note type="raw_reference">Patterson TA, Thomas L, Wilcox C, Ovaskainen O, Mat- thiopoulos J (2008) State-space models of individual animal movement. Trends Ecol Evol 23:87-94.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A framework for generating and analyzing movement paths on ecological landscapes</title>
+		<author>
+			<persName><forename type="first">Wayne</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Saltz</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801732105</idno>
+		<idno type="PMID">19060192</idno>
+		<idno type="PMCID">PMC2614716</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19066.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19066" to="19071"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Getz WM, Saltz D (2008) A framework for generating and analyzing movement paths on ecological land- scapes. Proc Natl Acad Sci USA 105:19066 -19071.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Multiple movement modes by large herbivores at multiple spatiotemporal scales</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Fryxell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Megan</forename><surname>Hazell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Börger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><forename type="middle">D</forename><surname>Dalziel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">T</forename><surname>Haydon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">M</forename><surname>Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Therese</forename><surname>Mcintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rick</forename><forename type="middle">C</forename><surname>Rosatte</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801737105</idno>
+		<idno type="PMID">19060190</idno>
+		<idno type="PMCID">PMC2614724</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19114.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19114" to="19119"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fryxell JM et al. (2008) Multiple movement modes by large herbivores at multiple spatio-temporal scales. Proc Natl Acad Sci USA 105:19114 -19119.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Geomagnetic imprinting: A unifying hypothesis of long-distance natal homing in salmon and sea turtles</title>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">J</forename><surname>Lohmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathan</forename><forename type="middle">F</forename><surname>Putman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><forename type="middle">M F</forename><surname>Lohmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801859105</idno>
+		<idno type="PMID">19060188</idno>
+		<idno type="PMCID">PMC2614721</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19096.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19096" to="19101"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lohmann KJ, Putnam NF, Lohmann CMF (2008) Geo- magnetic imprinting: A unifying hypothesis of long- distance natal homing in salmon and sea turtles. Proc Natl Acad Sci USA 105:19096 -19101.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Odor landscapes and animal behavior: tracking odor plumes in different physical worlds</title>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Crimaldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmarsys.2003.05.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Marine Systems</title>
+		<title level="j" type="abbrev">Journal of Marine Systems</title>
+		<idno type="ISSN">0924-7963</idno>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="55" to="64"/>
+			<date type="published" when="2004-08">2004</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore P, Crimaldi J (2004) Odor landscapes and animal behavior: Tracking odor plumes in different physical worlds. J Mar Syst 49:55-64.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Disentangling the effects of forage, social rank, and risk on movement autocorrelation of elephants using Fourier and wavelet analyses</title>
+		<author>
+			<persName><forename type="first">George</forename><surname>Wittemyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leo</forename><surname>Polansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iain</forename><surname>Douglas-Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wayne</forename><forename type="middle">M</forename><surname>Getz</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801744105</idno>
+		<idno type="PMID">19060207</idno>
+		<idno type="PMCID">PMC2614723</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19108.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19108" to="19113"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wittemyer G, Polansky L, Douglas-Hamilton I, Getz WM (2008) Disentangling the effects of forage, social rank and risk on movement autocorrelation of elephants using Fourier and wavelet analyses. Proc Natl Acad Sci USA 19108 -19113.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Movement ecology of migration in turkey vultures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Bildstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bohrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Winkler</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801789105</idno>
+		<idno type="PMID">19060195</idno>
+		<idno type="PMCID">PMC2614722</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19102.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19102" to="19107"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mandel JT, Bildstein KL, Bohrer G, Winkler DW (2008) The movement ecology of migration in turkey vultures. Proc Natl Acad Sci USA 105:19102-19107.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Long-distance biological transport processes through the air: can nature's complexity be unfolded in silico?</title>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nir</forename><surname>Sapir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Trakhtenbrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><forename type="middle">G</forename><surname>Katul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gil</forename><surname>Bohrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Otte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roni</forename><surname>Avissar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Merel</forename><forename type="middle">B</forename><surname>Soons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><forename type="middle">S</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Wikelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1366-9516.2005.00146.x</idno>
+		<idno type="ark">ark:/67375/WNG-P6H88Z0W-X</idno>
+		<idno type="istexId">E84F0EA6A6D76E3B06297A1452844D90DD8908E5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity and Distributions</title>
+		<idno type="ISSN">1366-9516</idno>
+		<idno type="ISSNe">1472-4642</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="137"/>
+			<date type="published" when="2005-03-07">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nathan R, et al. (2005) Long-distance biological trans- port processes through the air: Can nature's complexity be unfolded in-silico? Divers Distrib 11:131-137.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Migration of Bristle-Thighed Curlews on Laysan Island: Timing, Behavior and Estimated Flight Range</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">S</forename><surname>Marks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roland</forename><forename type="middle">L</forename><surname>Redmond</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1369317</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Condor</title>
+		<title level="j" type="abbrev">The Condor</title>
+		<idno type="ISSN">0010-5422</idno>
+		<idno type="ISSNe">1938-5129</idno>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="316" to="330"/>
+			<date type="published" when="1994-05">1994</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marks JS, Redmond RL (1994) Migration of bristle- thighed curlews on Laysan Island: Timing, behavior and estimated flight range. Condor 96:316 -330.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Search paths of swans foraging on spatially autocorrelated tubers</title>
+		<author>
+			<persName><forename type="first">Bart</forename><forename type="middle">A</forename><surname>Nolet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolf</forename><forename type="middle">M</forename><surname>Mooij</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2656.2002.00610.x</idno>
+		<ptr type="open-access" target="https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1046/j.1365-2656.2002.00610.x"/>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Animal Ecology</title>
+		<title level="j" type="abbrev">J Anim Ecology</title>
+		<idno type="ISSN">0021-8790</idno>
+		<idno type="ISSNe">1365-2656</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="451" to="462"/>
+			<date type="published" when="2002-05">2002</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nolet BA, Mooij WM (2002) Search paths of swans foraging on spatially autocorrelated tubers. J Anim Ecol 71:451-462.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">How Animals Move: An Integrative View</title>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">H</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claire</forename><forename type="middle">T</forename><surname>Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Full</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A R</forename><surname>Koehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rodger</forename><surname>Kram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><surname>Lehman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.288.5463.100</idno>
+		<idno type="PMID">10753108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="issue">5463</biblScope>
+			<biblScope unit="page" from="100" to="106"/>
+			<date type="published" when="2000-04-07">2000</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dickinson MH, et al. (2000) How animals move: An integrative view. Science 288:100 -106.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The surprisingly diverse ways that prokaryotes move</title>
+		<author>
+			<persName><forename type="first">Ken</forename><forename type="middle">F</forename><surname>Jarrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><forename type="middle">J</forename><surname>Mcbride</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro1900</idno>
+		<idno type="PMID">18461074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Microbiology</title>
+		<title level="j" type="abbrev">Nat Rev Microbiol</title>
+		<idno type="ISSN">1740-1526</idno>
+		<idno type="ISSNe">1740-1534</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="466" to="476"/>
+			<date type="published" when="2008-05-07">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jarrell KF, McBride MJ (2008) The surprisingly diverse ways that prokaryotes move. Nat Rev Microbiol 6:466 - 476.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Tracking butterfly movements with harmonic radar reveals an effect of population age on movement distance</title>
+		<author>
+			<persName><forename type="first">Otso</forename><surname>Ovaskainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juliet</forename><forename type="middle">L</forename><surname>Osborne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Don</forename><forename type="middle">R</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norman</forename><forename type="middle">L</forename><surname>Carreck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">P</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristjan</forename><surname>Niitepõld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilkka</forename><surname>Hanski</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0802066105</idno>
+		<idno type="PMID">19060191</idno>
+		<idno type="PMCID">PMC2614720</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19090.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19090" to="19095"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ovaskainen O, et al. (2008) Tracking butterfly move- ments with harmonic radar reveals an effect of popu- lation age on movement distance. Proc Natl Acad Sci USA 105:19090 -19095.</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of Matrix Heterogeneity on Animal Dispersal: From Individual Behavior to Metapopulation‐Level Parameters</title>
+		<author>
+			<persName><forename type="first">Eloy</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thorsten</forename><surname>Wiegand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Palomares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pablo</forename><surname>Ferreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miguel</forename><surname>Delibes</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/424767</idno>
+		<idno type="PMID">15540147</idno>
+		<ptr type="open-access" target="https://digital.csic.es/bitstream/10261/8896/1/AmNat_Effects_Matrix%20Heterogeneity_2004.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">The American Naturalist</title>
+		<title level="j" type="abbrev">The American Naturalist</title>
+		<idno type="ISSN">0003-0147</idno>
+		<idno type="ISSNe">1537-5323</idno>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="E130" to="E153"/>
+			<date type="published" when="2004-11">2004</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Revilla E, Wiegand T, Palomares F, Ferreras P, Delibes M (2004) Effects of matrix heterogeneity on animal dis- persal: From individual behavior to metapopulation- level parameters. Am Nat 164:E130 -E153.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The Impact of Directed versus Random Movement on Population Dynamics and Biodiversity Patterns</title>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">R</forename><surname>Armsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joan</forename><forename type="middle">E</forename><surname>Roughgarden</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/428595</idno>
+		<idno type="PMID">15791537</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The American Naturalist</title>
+		<title level="j" type="abbrev">The American Naturalist</title>
+		<idno type="ISSN">0003-0147</idno>
+		<idno type="ISSNe">1537-5323</idno>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="449" to="465"/>
+			<date type="published" when="2005-04">2005</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armsworth PR, Roughgarden JE (2005) The impact of directed versus random movement on population dy- namics and biodiversity patterns. Am Nat 165:449 - 465.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<title level="m">Aristotle's De Motu Animalium</title>
+		<meeting><address><addrLine>Princeton, NJ)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ Press</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nussbaum MC (1978) Aristotle's De Motu Animalium (Princeton Univ Press, Princeton, NJ).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Anomalous diffusion spreads its wings</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Klafter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Igor</forename><forename type="middle">M</forename><surname>Sokolov</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2058-7058/18/8/33</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physics World</title>
+		<title level="j" type="abbrev">Phys. World</title>
+		<idno type="ISSN">0953-8585</idno>
+		<idno type="ISSNe">2058-7058</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="29" to="32"/>
+			<date type="published" when="2005-08">2005</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klafter J, Sokolov IM (2005) Anomalous diffusion spreads its wings. Phys World 18:29 -32.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Long‐distance migration: evolution and determinants</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Alerstam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Hedenström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Åkesson</surname></persName>
+		</author>
+		<idno type="DOI">10.1034/j.1600-0706.2003.12559.x</idno>
+		<idno type="ark">ark:/67375/WNG-WWP7FX7X-8</idno>
+		<idno type="istexId">7A4FA3F51A5354C6B57CF2854E59E3A9704F32FF</idno>
+		<ptr type="open-access" target="https://lup.lub.lu.se/search/files/2809626/624191.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Oikos</title>
+		<title level="j" type="abbrev">Oikos</title>
+		<idno type="ISSN">0030-1299</idno>
+		<idno type="ISSNe">1600-0706</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="260"/>
+			<date type="published" when="2003-10-17">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alerstam T, Hedenstrom A, Akesson S (2003) Long- distance migration: Evolution and determinants. Oikos 103:247-260.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vogel</surname></persName>
+		</author>
+		<title level="m">Comparative Biomechanics: Life's Physical World</title>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogel S (2003) Comparative Biomechanics: Life's Phys- ical World (Princeton Univ Press, Princeton, NJ).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">James, John</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Jeffery</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gao/9781884446054.article.t043326</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Neurobiology of Spatial Behaviour</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeffery KJ (2003) The Neurobiology of Spatial Behav- iour (Oxford Univ Press, Oxford).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">HOW MANY ANIMALS REALLY DO THE LÉVY WALK?</title>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Benhamou</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/06-1769.1</idno>
+		<idno type="PMID">17824427</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<title level="j" type="abbrev">Ecology</title>
+		<idno type="ISSN">0012-9658</idno>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1962" to="1969"/>
+			<date type="published" when="2007-08">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benhamou S (2007) How many animals really do the Le ´vy walk? Ecology 88:1962-1969.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fractal reorientation clocks: Linking animal behavior to statistical patterns of search</title>
+		<author>
+			<persName><forename type="first">Frederic</forename><surname>Bartumeus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801926105</idno>
+		<idno type="PMID">19060198</idno>
+		<idno type="PMCID">PMC2614717</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19072.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19072" to="19077"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bartumeus F, Levin SA (2008) Fractal reorientation clocks: Linking animal behavior to statistical patterns of search. Proc Natl Acad Sci USA 105:19072-19077.</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">On territorial behavior and other factors influencing habitat distribution in birds</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">Dewitt</forename><surname>Fretwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><forename type="middle">L</forename><surname>Lucas</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf01601953</idno>
+		<idno type="ark">ark:/67375/1BB-DXX71F5X-V</idno>
+		<idno type="istexId">A7B92BFDFCCF5D3EC12F2AB425FFFD4DA5D6A0D5</idno>
+		<ptr type="open-access" target="https://repository.lib.ncsu.edu/bitstream/1840.4/3015/2/ISMS_1969_642.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biotheoretica</title>
+		<title level="j" type="abbrev">Acta Biotheor</title>
+		<idno type="ISSN">0001-5342</idno>
+		<idno type="ISSNe">1572-8358</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="36"/>
+			<date type="published" when="1969-03">1969</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fretwell SD, Lucas HL, Jr (1969) On territorial behavior and other factors influencing habitat distribution in birds. I. Theoretical development. Acta Biotheor 19:16 - 36.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Orians</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Pearson</surname></persName>
+		</author>
+		<title level="m">Analysis of Ecological Systems</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Horn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Athens, OH</addrLine></address></meeting>
+		<imprint>
+			<publisher>Ohio Univ Press</publisher>
+			<date type="published" when="1979">1979</date>
+			<biblScope unit="page" from="154" to="177"/>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orians GH, Pearson NE (1979) in Analysis of Ecological Systems, eds Horn DJ, Mitchell RD, Straits GR (Ohio Univ Press, Athens, OH), pp 154 -177.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Long-Distance Dispersal of Plants</title>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1124975</idno>
+		<idno type="PMID">16902126</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">313</biblScope>
+			<biblScope unit="issue">5788</biblScope>
+			<biblScope unit="page" from="786" to="788"/>
+			<date type="published" when="2006-08-11">2006</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nathan R (2006) Long-distance dispersal of plants. Sci- ence 313:786 -788.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The movement ecology and dynamics of plant communities in fragmented landscapes</title>
+		<author>
+			<persName><forename type="first">Ellen</forename><forename type="middle">I</forename><surname>Damschen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars</forename><forename type="middle">A</forename><surname>Brudvig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><forename type="middle">M</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Douglas</forename><forename type="middle">J</forename><surname>Levey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">L</forename><surname>Orrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">J</forename><surname>Tewksbury</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0802037105</idno>
+		<idno type="PMID">19060187</idno>
+		<idno type="PMCID">PMC2614718</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19078.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19078" to="19083"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Damschen EI, et al. (2008) The movement ecology and dynamics of plant communities in fragmented land- scapes. Proc Natl Acad Sci USA 105:19078 -19083.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The importance of long-distance dispersal in biodiversity conservation</title>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Trakhtenbrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ran</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gad</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1366-9516.2005.00156.x</idno>
+		<idno type="ark">ark:/67375/WNG-67RLWWGJ-4</idno>
+		<idno type="istexId">08EC4113EC9DF743EB4A4C782B99062E902FDEF8</idno>
+		<ptr type="open-access" target="https://scholar.sun.ac.za:443/bitstream/10019.1/116877/3/trakhenbrot.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Diversity and Distributions</title>
+		<idno type="ISSN">1366-9516</idno>
+		<idno type="ISSNe">1472-4642</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="173" to="181"/>
+			<date type="published" when="2005-03-07">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trakhtenbrot A, Nathan R, Perry G, Richardson DM (2005) The importance of long-distance dispersal in biodiversity conservation. Divers Distrib 11:173-181.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effective leadership and decision-making in animal groups on the move</title>
+		<author>
+			<persName><forename type="first">Iain</forename><forename type="middle">D</forename><surname>Couzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jens</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nigel</forename><forename type="middle">R</forename><surname>Franks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature03236</idno>
+		<idno type="PMID">15690039</idno>
+		<ptr type="open-access" target="https://kops.uni-konstanz.de/bitstream/123456789/38100/1/Couzin_0-400081.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">433</biblScope>
+			<biblScope unit="issue">7025</biblScope>
+			<biblScope unit="page" from="513" to="516"/>
+			<date type="published" when="2005-02">2005</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Couzin ID, Krause J, Franks NR, Levin SA (2005) Effective leadership and decision-making in animal groups on the move. Nature 433:513-516.</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Interaction ruling animal collective behavior depends on topological rather than metric distance: Evidence from a field study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ballerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cabibbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Candelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cavagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cisbani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Giardina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lecomte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Orlandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Procaccini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Viale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zdravkovic</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0711437105</idno>
+		<idno type="PMID">18227508</idno>
+		<idno type="PMCID">PMC2234121</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/4/1232.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1232" to="1237"/>
+			<date type="published" when="2008-01-29">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ballerini M, et al. (2008) Interaction ruling animal col- lective behavior depends on topological rather than metric distance: Evidence from a field study. Proc Natl Acad Sci USA 105:1232-1237.</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Individual movement behavior, matrix heterogeneity, and the dynamics of spatially structured populations</title>
+		<author>
+			<persName><forename type="first">Eloy</forename><surname>Revilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thorsten</forename><surname>Wiegand</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0801725105</idno>
+		<idno type="PMID">19060193</idno>
+		<idno type="PMCID">PMC2614725</idno>
+		<ptr type="open-access" target="http://www.pnas.org/content/105/49/19120.full.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">49</biblScope>
+			<biblScope unit="page" from="19120" to="19125"/>
+			<date type="published" when="2008-12-09">2008</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Revilla E, Wiegand T (2008) Individual movement be- havior, matrix heterogeneity and the dynamics of spa- tially structured populations. Proc Natl Acad Sci USA 105:19120 -19125.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
