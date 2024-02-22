@@ -5,10 +5,10 @@ FROM python:3.9.13
 WORKDIR /app
 # Change the working dir inside the container - cd /app
 
-COPY main.py req.txt ./
+COPY main.py requirements.txt ./
 # Copy main.py as source cod and req.txt as dependency
 
-RUN pip install -r req.txt
+RUN pip install -r requirements.txt
 # Install the dependency
 
 ### Container Env same as local at this point
