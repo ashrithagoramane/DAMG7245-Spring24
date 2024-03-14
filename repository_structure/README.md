@@ -70,6 +70,9 @@
 *List the learning outcomes from the assignment/project*
 
 ## Team Information and Contribution 
+*Add the following attestation with contributions*
+
+WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENTS' WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK 
 
 Name | Contribution %| Contributions |
 --- |--- | --- |
