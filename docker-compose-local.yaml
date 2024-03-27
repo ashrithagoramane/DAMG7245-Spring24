@@ -284,6 +284,23 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-
+  streamlit:
+    container_name: streamlit
+    build:
+        context: streamlit
+    restart: always
+    ports:
+        - "8000:8080"
+    env_file:
+      - .env
+  fastapi:
+    container_name: fastapi
+    build: 
+      context: fastapi
+    restart: always
+    ports:
+        - "8095:8095"
+    env_file:
+      - .env
 volumes:
   postgres-db-volume:
